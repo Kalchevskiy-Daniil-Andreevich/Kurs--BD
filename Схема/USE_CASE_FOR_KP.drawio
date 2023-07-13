@@ -1,0 +1,603 @@
+<mxfile host="Electron" modified="2023-05-14T21:03:47.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="ldxbfQpEnvEE4AD1UWKL" version="21.2.8" type="device">
+  <diagram name="Страница 1" id="dx6j9PYRHwKjVuwp1w9P">
+    <mxGraphModel dx="2333" dy="1418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="1600" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-1" value="CLIENT" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-2" value="ANALYST" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-3" value="&lt;b&gt;MANAGER&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="740" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-4" value="ADMINISTRATOR" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="740" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Добавление в таблицу список клиентов&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="105" y="410" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-23" value="Просмотр таблицы типы тренировок" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-25" value="Просмотр таблицы абонементы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="105" y="540" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-28" value="Просмотр таблицы типы тренировок" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-30" value="Просмотр таблицы список услуг" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="410" y="670" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-34" value="Просмотр таблицы комплексы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="105" y="660" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-38" value="Просмотр список клиентов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1020" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-39" value="Просмотр таблицы посещения" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1150" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-40" value="Просмотр таблицы комплексы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1020" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-41" value="Просмотр таблицы абонементы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1130" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="351" y="1270" />
+              <mxPoint x="351" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-42" value="Просмотр таблицы продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1270" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-44" value="Просмотр таблицы расписание" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="920" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-45" value="Просмотр таблицы список услуг" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="380" y="920" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-46" value="Просмотр таблицы типы тренировок" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1310" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-48" value="Просмотр таблицы продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1240" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="849.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-53" value="Просмотр список клиентов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1130" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="839.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-54" value="Просмотр таблицы посещения" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1020" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-55" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="600" />
+              <mxPoint x="1730" y="690" />
+              <mxPoint x="1375" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-55" value="Просмотр таблицы комплексы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="550" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="789.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-56" value="Просмотр таблицы абонементы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="780" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="1130" />
+              <mxPoint x="1291" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-57" value="Просмотр таблицы продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1140" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="849.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-58" value="Просмотр таблицы расписание" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1020" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-59" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1411" y="710" />
+              <mxPoint x="1411" y="790" />
+              <mxPoint x="1370" y="790" />
+              <mxPoint x="1370" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-59" value="Просмотр таблицы список услуг" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="660" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="839.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1185" y="1090" />
+              <mxPoint x="1341" y="1090" />
+              <mxPoint x="1341" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-60" value="Просмотр таблицы типы тренировок" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1140" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-61" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-61" value="Просмотр таблицы продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="900" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="839.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-63" value="Добавление в таблицу посещения" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="850" y="900" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="789.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-64" value="Добавление в таблицу продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="780" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="769.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-65" value="Добавление в таблицу типы тренировок" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="670" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-66" target="E3rbBtd-ML1QsIBOZUDF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="600" />
+              <mxPoint x="650" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-66" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="600" />
+              <mxPoint x="1370" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-66" value="Добавление в таблицу список клиентов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="850" y="550" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-67" target="E3rbBtd-ML1QsIBOZUDF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="975" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-67" value="Добавление в таблицу расписание" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="880" y="430" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1195" y="580" />
+              <mxPoint x="1321" y="580" />
+              <mxPoint x="1321" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1195" y="360" />
+              <mxPoint x="980" y="360" />
+              <mxPoint x="980" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-68" value="Добавление в таблицу продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="420" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1415" y="650" />
+              <mxPoint x="1480" y="650" />
+              <mxPoint x="1480" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1415" y="170" />
+              <mxPoint x="750" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-69" value="Добавление в таблицу абонементы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="430" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-70" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="490" />
+              <mxPoint x="1510" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1615" y="220" />
+              <mxPoint x="730" y="220" />
+              <mxPoint x="730" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-70" value="Добавление в таблицу список услуг" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="440" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1690" y="540" />
+              <mxPoint x="1690" y="660" />
+              <mxPoint x="1375" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1815" y="320" />
+              <mxPoint x="921" y="320" />
+              <mxPoint x="921" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-71" value="Добавление в таблицу комплексы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="440" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="1240" />
+              <mxPoint x="1510" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-72" value="Изменение таблицы посещения" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1140" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="839.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1645" y="1030" />
+              <mxPoint x="1431" y="1030" />
+              <mxPoint x="1431" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-73" value="Изменение таблицы продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1130" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-74" value="Изменение таблицы типы тренировок" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="840" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="829.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1510" y="1046" />
+              <mxPoint x="1460" y="1046" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1081" y="1270" />
+              <mxPoint x="1081" y="770" />
+              <mxPoint x="1270" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-75" value="Изменение таблицы список клиентов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1260" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="1340" />
+              <mxPoint x="1080" y="1000" />
+              <mxPoint x="1260" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-76" value="Изменение таблицы расписание" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1290" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-77" value="Изменение таблицы продажа абонементов" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1270" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-78" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1770" y="1310" />
+              <mxPoint x="1770" y="1040" />
+              <mxPoint x="1375" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-78" value="Изменение таблицы абонементы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1260" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-79" target="E3rbBtd-ML1QsIBOZUDF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1300" />
+              <mxPoint x="810" y="1130" />
+              <mxPoint x="1375" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-79" value="Изменение таблицы список услуг" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1250" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-80" value="Изменени таблицы комплексы" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="710" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="265" y="10" />
+              <mxPoint x="741" y="10" />
+              <mxPoint x="741" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-135" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы список клиентов&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="170" y="110" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-136">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-136" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы абонементы&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-137" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы продажа абонементов&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-141" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы инфо о комплексах&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="800" y="50" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1135" y="250" />
+              <mxPoint x="801" y="250" />
+              <mxPoint x="801" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-142" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы посещения&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="50" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1405" y="260" />
+              <mxPoint x="841" y="260" />
+              <mxPoint x="841" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-143" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы инфо о комплексах&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="50" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1595" y="10" />
+              <mxPoint x="761" y="10" />
+              <mxPoint x="761" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-147" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы расписание&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="60" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-148" target="E3rbBtd-ML1QsIBOZUDF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-148" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы список услуг&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="180" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-149">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-149" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы типы тренеровок&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="260" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="E3rbBtd-ML1QsIBOZUDF-150">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E3rbBtd-ML1QsIBOZUDF-150" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение структуры таблицы список сотрудников&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="380" width="210" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
